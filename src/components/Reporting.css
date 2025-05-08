@@ -1,0 +1,33 @@
+.reporting-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+  }
+  
+  .reporting-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .reporting-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reporting-container th,
+  .reporting-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reporting-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .reporting-container tfoot td {
+    font-weight: bold;
+  }
