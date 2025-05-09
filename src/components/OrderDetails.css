@@ -1,0 +1,149 @@
+/* src/components/OrderDetails.css */
+.order-details {
+    width: 400px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: #777;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .customer-info > div {
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .order-item-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    flex-grow: 1;
+    overflow-y: auto; /* Enable scrolling for long lists */
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .order-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-info {
+    flex-grow: 1;
+  }
+  
+  .item-info .name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item-info .notes {
+    color: #777;
+    font-size: 0.85em;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .quantity-controls button {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    outline: none;
+  }
+  
+  .quantity-controls input {
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+    outline: none;
+  }
+  
+  .price {
+    width: 60px;
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .remove-button {
+    background: none;
+    border: none;
+    color: #d9534f; /* Red color */
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none;
+  }
+  
+  .total {
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .total span:last-child {
+    font-size: 1.2em;
+    color: #007bff; /* Blue color for total amount */
+  }
+  
+  .pay-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .pay-button:hover {
+    background-color: #218838;
+  }

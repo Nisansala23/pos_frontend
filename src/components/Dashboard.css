@@ -1,0 +1,29 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Or a suitable height */
+   }
+  
+   .sidebar {
+    width: 250px; /* Adjust to your desired sidebar width */
+    /* Add other sidebar styles from your Sidebar.css */
+   }
+  
+   .main-content {
+    flex-grow: 1; /* Take up the remaining width */
+    display: flex; /* Arrange ProductGrid and OrderDetails */
+    padding: 20px; /* Add some padding around the content */
+   }
+  
+   .product-area {
+    flex-grow: 1; /* ProductGrid takes remaining width */
+    margin-right: 20px; /* Space between product grid and order details */
+   }
+  
+   /* Ensure OrderDetails has a fixed width as in the image */
+   .order-details {
+    width: 400px; /* As per your OrderDetails.css */
+    flex-shrink: 0; /* Prevent it from shrinking */
+   }
+  
+   /* You might need to adjust styles in ProductGrid.css for better layout */
